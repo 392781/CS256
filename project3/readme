@@ -1,7 +1,5 @@
 Program that keeps track of KDR and W/L Ratio
 
-Program that keeps track of KDR and W/L Ratio
-
 Command	|	Input			| 	Description
 ------------------------------------------------------------------------------------------------------------------------------------
 add 	|  result kills deaths assists	|	adds a match to the datafile.log.  Result should be a capital W or L, kills, deaths, and assists are just integer values
