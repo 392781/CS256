@@ -1,0 +1,4 @@
+This program plays a tic-tac-toe game against itself.  The program should be run in the following fashion:
+' ./project4 game_board.dat X '
+or
+' ./project4 game_board.dat O '
