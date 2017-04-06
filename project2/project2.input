@@ -1,0 +1,96 @@
+clear
+setms 400
+hplot 4 21 - 38
+hplot 20 21 - 38
+vplot 5 20 | 15
+vplot 5 59 | 15
+pause
+hplot 5 22 - 36
+hplot 19 22 - 36
+vplot 6 21 | 13
+vplot 6 58 | 13
+pause
+hplot 6 23 - 34
+hplot 18 23 - 34
+vplot 7 22 | 11
+vplot 7 57 | 11
+pause
+hplot 7 24 - 32
+hplot 17 24 - 32
+vplot 8 23 | 9
+vplot 8 56 | 9
+pause
+hplot 8 25 - 30
+hplot 16 25 - 30
+vplot 9 24 | 7
+vplot 9 55 | 7
+pause
+slow
+hplot 12 26 - 13
+hplot 12 41 - 13
+pause
+plot 12 39 8
+plot 12 40 8
+pause
+pause
+text 12 34 hello--
+text 12 41 friend
+pause
+pause
+text 12 34 how--are-you-
+pause
+pause
+pause
+pause
+text 12 34 .
+pause
+text 12 35 -
+pause
+text 12 36 ~
+pause 
+text 12 37 `
+pause
+text 12 38 '
+pause 
+text 12 39 ~
+pause
+text 12 40 .
+pause
+text 12 41 =
+pause
+text 12 42 *
+pause
+text 12 43 '
+pause
+text 12 44 -
+pause 
+text 12 45 :
+pause
+text 12 46 )
+pause
+pause
+pause
+pause 
+pause
+pause
+text 12 34 --good-bye---
+pause
+pause
+pause
+pause
+text 12 47 :)
+pause
+pause
+pause
+copy 12 34 1 15 2 3
+pause
+pause
+copy 12 34 1 15 5 6
+pause
+copy 12 34 1 15 8 10
+pause
+pause
+paus
+pause
+clear
+quit
