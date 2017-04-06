@@ -1,0 +1,24 @@
+This program works as an animation engine by taking specific inputs from a precreated log file to create an animation.
+Invalid inputs are output into a log file.
+
+The program should be run with an input file as such: './project2 input.txt'
+
+The valid input commands are as follows:
+Command |       Input       | Description
+---------------------------------------------------------------------------------------------------------------------------
+clear	  |	 	                |   Clears the screen
+setms   |      n	 	        |   Sets the pause milliseconds to n.
+setfg   |      n	 	        |   Sets the text color to n (should only be 30-39)
+setbg   |      n	 	        |   Sets the background color to n (should only be 40-49)
+pause	  |	 	                |   Pauses the processing for whatever time last setms value was.
+slow	  |	 	                |   Pause afer every line of command input (not including blanks and comments)
+fast	  |	 	                |   Pause only when the pause command is encountered (i.e. turns off pause after every command)
+plot  	| row col char 	    |   Places the cursor at (row, col) and prints char
+hplot	  | row col char cnt	|   Places the cursor at (row, col) and prints cnt /char/s to the right.
+vplot	  | row col char cnt	|   Places the cursor at (row, col) and prints cnt /char/s down.
+text	  | row col string	 	|   Places the cursor at (row, col) and prints string
+move	  | row col h w Dr Dc	| 	Moves the contents of the box at (row, col), with height h and width w, Dr and Dc spaces
+copy	  | row col h w Dr Dc	| 	Copies the box at (row, col), with height h and width w, to (row + Dr, col + Dc)
+//	    | {comment}         |   Comment line; entire line is ignored by program
+quit	 	| 	                |   Notifies the program to stop reading input
+---------------------------------------------------------------------------------------------------------------------------
